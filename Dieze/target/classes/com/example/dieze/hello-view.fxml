@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="891.0" style="-fx-background-color: #1E2124; -fx-border-color: #1E2124;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dieze.HelloController">
+   <children>
+      <Button fx:id="connexionButton" layoutX="613.0" layoutY="281.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="150.0" style="-fx-background-color: #282b30;" text="CONNEXION" textFill="WHITE" textOverrun="WORD_ELLIPSIS" />
+      <Text fx:id="adresseMailText" fill="WHITE" layoutX="43.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADRESSE MAIL" wrappingWidth="149.0" />
+      <Text fx:id="motDePasseText" fill="WHITE" layoutX="43.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOT DE PASSE" wrappingWidth="112.0" />
+      <Button fx:id="inscriptionButton" layoutX="614.0" layoutY="533.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="149.0" style="-fx-background-color: #282b30;" text="INSCRIPTION" textFill="WHITE" textOverrun="WORD_ELLIPSIS" />
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="145.0" prefWidth="891.0" style="-fx-background-color: #282B30;">
+         <children>
+            <Text fill="WHITE" layoutX="359.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DIEZE" wrappingWidth="172.142578125">
+               <font>
+                  <Font size="64.0" />
+               </font></Text>
+            <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="677.0" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+                  <Text fill="WHITE" fontSmoothingType="LCD" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text=". . . . . . . . . . ." wrappingWidth="134.142578125" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="614.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="891.0" style="-fx-background-color: #282B30;" />
+      <TextField layoutX="155.0" layoutY="252.0" prefHeight="23.0" prefWidth="134.0" promptText="Adresse mail..." style="-fx-background-color: #282b30;">
+         <font>
+            <Font name="Gagalin-Regular" size="12.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="155.0" layoutY="339.0" prefHeight="23.0" prefWidth="134.0" promptText="Mot de passe..." style="-fx-background-color: #282b30;">
+         <font>
+            <Font name="Gagalin-Regular" size="12.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
